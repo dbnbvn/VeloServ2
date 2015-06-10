@@ -14,7 +14,7 @@ Default skin template. The following skins are provided as examples only.
 <asp:Image runat="server" ImageUrl="~/images/image1.jpg" />
 
 
- Height="600"
+Removed Height="600" from the Gridview Control below, see what breaks?
 
 --%>
 <asp:GridView runat="server" AutoGenerateColumns="False" AllowPaging="True" BorderStyle="None" GridLines="None" HorizontalAlign="Center" cssClass="gridView" HeaderStyle-CssClass="headerStyle" AlternatingRowStyle-BackColor="#d8d8d8"/>
